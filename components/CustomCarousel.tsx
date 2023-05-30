@@ -1,6 +1,6 @@
+import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { IoIosArrowForward } from "react-icons/io";
 
 const CustomCarousel = ({ children }: { children: React.ReactNode }) => {
   const responsive = {
@@ -36,7 +36,7 @@ const CustomCarousel = ({ children }: { children: React.ReactNode }) => {
       containerClass="carousel-container"
       removeArrowOnDeviceType={["tablet", "mobile"]}
       itemClass="px-4"
-      //   customLeftArrow={<CustomLeftArrow />}
+      customLeftArrow={<CustomLeftArrow />}
       customRightArrow={<CustomRightArrow />}
     >
       {children}
@@ -44,15 +44,15 @@ const CustomCarousel = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
-// const CustomLeftArrow = () => (
-//   <button className="custom-arrow custom-arrow-left">
-//     <IoIosArrowBack />
-//   </button>
-// );
+const CustomLeftArrow = () => (
+  <button className="bg-blue-500">
+    <IoMdArrowBack />
+  </button>
+);
 
 const CustomRightArrow = () => (
-  <button className="custom-arrow custom-arrow-right">
-    <IoIosArrowForward />
+  <button className="bg-blue-500">
+    <IoMdArrowForward />
   </button>
 );
 export default CustomCarousel;

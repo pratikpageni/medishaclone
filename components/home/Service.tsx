@@ -7,7 +7,7 @@ const Service = () => {
         Medical Services Offered At Home
       </h1>
       <div>
-        <div className="flex justify-between w-full">
+        <div className="md:flex justify-between w-full">
           <a href="">
             <img src="img/eldercare.png" alt="eldercare" className="h-52" />
           </a>

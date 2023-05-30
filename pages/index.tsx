@@ -10,7 +10,7 @@ const index = () => {
   return (
     <Mainlayout title="Home">
       <Banner />
-      <div className="px-20  grid grid-cols-1 gap-y-20">
+      <div className="md:px-20 px-10  grid grid-cols-1 gap-y-20">
         <Service />
         <Consult />
         <Testomonial />

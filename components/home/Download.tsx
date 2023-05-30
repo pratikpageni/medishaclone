@@ -3,11 +3,11 @@ import React from "react";
 const Download = () => {
   return (
     <div>
-      <div className="flex px-56 bg-gray-100 py-20 gap-x-28 items-center">
-        <div className="w-1/2">
+      <div className="md:flex md:px-56 bg-gray-100 md:py-20 md:gap-x-28 items-center px-10 py-10">
+        <div className="md:w-1/2">
           <img src="/img/download.png" alt="photo" />
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <h1 className="text-3xl font-semibold">Download the Mediisha app</h1>
           <p className="text-sm mt-[20px]">
             Get in touch with the top-most expert Specialist Doctors for an

@@ -10,7 +10,7 @@ const Consult = () => {
       <p className="text-[14px]">
         Get in touch with the experts and specialist Doctors.
       </p>
-      <div className="flex mt-14 px-5 justify-between">
+      <div className="md:flex mt-14 px-5 justify-between grid grid-cols-3">
         {consultdata.map((data, index) => {
           return (
             <button key={index}>

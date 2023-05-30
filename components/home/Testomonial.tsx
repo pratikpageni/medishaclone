@@ -5,7 +5,7 @@ import testomonial from "@/constraints/testomonial.data";
 const Testomonial = () => {
   return (
     <div className="">
-      <h1 className="text-center font-semibold text-[20px]">
+      <h1 className="text-center text-[22px] font-semibold ">
         Our Happy Customer
       </h1>
       <div className="mt-16">
